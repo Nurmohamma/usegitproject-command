@@ -1,0 +1,22 @@
+1.Rename .env.example file to .envinside your project root and fill the database information. (windows wont let you do it, so you have to open your console cd your project root directory and run mv .env.example .env )
+Open the console and cd your project root directory
+2.composer update --ignore-platform-reqs
+3.Run php artisan key:generate
+4.Run php artisan migrate
+5.Run php artisan db:seed to run seeders, if any.
+6.Run php artisan serve
+
+
+
+blog page:https://github.com/milon/laravel-blog    https://medium.com/@ahmed.yacoub/how-to-make-simple-blog-using-laravel-framework-7e803aeb3efd
+
+
+for only bagisto install:ager commad der por aigola dite hbe
+
+6.php artisan vendor:publish
+
+7.-> Press 0 and then press enter to publish all assets and configurations.
+
+8.Run php artisan serve
+
+	
